@@ -1,0 +1,39 @@
+# config.yml
+
+# Base path where scripts and necessary folders will be created.
+BASE_PATH: '.'
+
+# =====================
+# Document Vectorizer Configuration
+# =====================
+document_vectorizer:
+  data_path: 'Data'
+  db_path: 'sqlite_folder'
+  processed_files_log: 'processed_files.txt'
+  sentence_transformer_model: 'sentence-transformers/LaBSE'
+  embedding_block_size: 1000
+  n_results: 10
+  exclude_extensions:
+    - ".xlsx"
+    - ".xls"
+
+# =====================
+# Question Answering Configuration
+# =====================
+question_answering:
+  qa_model_path: 'qa_model'
+  qa_model_name: 'mrm8488/bert-base-spanish-wwm-cased-finetuned-spa-squad2-es'
+  spacy_model: 'es_core_news_sm'
+  translation_model: 'Helsinki-NLP/opus-mt-en-es'
+  sentence_transformer_model_qa: 'sentence-transformers/LaBSE'
+  qa_n_results: 5
+  qa_context_length: 1500
+  qa_max_answer_length: 250
+  qa_max_context_tokens: 450
+
+# =====================
+# Common Configuration
+# =====================
+common:
+  exclude_sources: []
+  nltk_data_path: 'nltk_data'
