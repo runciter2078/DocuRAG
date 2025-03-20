@@ -65,7 +65,7 @@ You can install all required packages using `pip` or by creating a virtual envir
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/DocuRAG.git
+   git clone https://github.com/runciter2078/DocuRAG.git
    cd DocuRAG
    ```
 
