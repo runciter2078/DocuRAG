@@ -145,7 +145,7 @@ Enter your question when prompted. The script will retrieve relevant contexts an
 
 ## License
 
-[Specify your license here, e.g., MIT License]
+MIT License [https://opensource.org/license/mit]
 
 ---
 
@@ -157,19 +157,3 @@ Contributions are welcome! If you have suggestions, improvements, or bug fixes, 
 
 Enjoy exploring DocuRAG and showcasing your work!
 ```
-
----
-
-## 5. Resumen Final
-
-- **Archivos a subir en el repo:**  
-  - `clean_database.py`  
-  - `document_vectorizer.py`  
-  - `document_qa.py`  
-  - `config.yml`  
-  - `README.md`
-
-- **Archivos a omitir:**  
-  - `README.txt` (de referencia, ya no necesario)
-
-Con estas modificaciones el proyecto queda completamente genérico y mejorado para presentarlo en GitHub. Puedes ajustar detalles adicionales (por ejemplo, añadir un `requirements.txt`) según tus necesidades. ¡Espero que te resulte útil para mostrar tu trabajo!
