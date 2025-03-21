@@ -2,6 +2,8 @@
 
 **A modular pipeline for document embedding, retrieval, and question answering using ChromaDB and state-of-the-art transformer models.**
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 ---
 
 ## Overview
